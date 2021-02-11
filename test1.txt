@@ -1,0 +1,34 @@
+Hello
+
+
+git config --global user.name "mgunwani"
+git config --global user.email "gunwani.madhu@gmail.com"
+
+a. Intializing GIT Repository:
+
+	git init
+
+b. To check git status:
+
+	git status
+
+c. To add files/folder for commit:
+
+	git add .
+
+d. To check git status:
+
+	git status
+
+e. To commit changes:
+
+	git commit -m "First Commit"
+	
+f. To add committed files/folders to server repository:	
+	
+	git remote add origin https://github.com/mgunwani/JavaFSD_DELL_Projects.git
+
+g. To push the committed files to repository:
+
+	git push -u origin master
+
